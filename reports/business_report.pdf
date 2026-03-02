@@ -1,0 +1,79 @@
+1. Business Problem
+
+Customer churn is a major challenge for subscription-based businesses such as telecom and internet service providers. When customers discontinue their services, companies lose recurring revenue and incur additional costs to acquire new customers.
+
+The objective of this project is to build a machine learning model that predicts whether a customer is likely to churn based on their demographic and service-related information.
+
+By identifying high-risk customers in advance, the company can implement targeted retention strategies to reduce churn and improve overall profitability.
+
+📊 2. Project Objectives
+
+Analyze customer behavior patterns.
+
+Identify key factors influencing churn.
+
+Build and evaluate classification models.
+
+Deploy a prediction system for real-time churn risk detection.
+
+Provide actionable business recommendations.
+
+🎯 3. Success Metrics
+
+We define both Technical Metrics and Business Metrics.
+
+A. Technical Success Metrics
+
+Since churn prediction is a classification problem, we will evaluate:
+
+1️⃣ Accuracy
+
+Overall percentage of correct predictions.
+
+2️⃣ Precision
+
+How many predicted churn customers actually churned.
+
+3️⃣ Recall (VERY IMPORTANT)
+
+How many actual churn customers were correctly identified.
+
+👉 In churn problems, Recall is most important, because:
+Missing a churn customer = lost revenue.
+
+4️⃣ F1-Score
+
+Balance between Precision and Recall.
+
+5️⃣ ROC-AUC Score
+
+Measures model’s ability to distinguish churn vs non-churn.
+
+B. Business Success Metrics
+
+Increase customer retention rate.
+
+Reduce churn percentage.
+
+Identify high-risk customers before contract expiration.
+
+Estimate potential revenue at risk.
+
+Enable targeted retention campaigns.
+
+🧠 4. Expected Business Impact
+
+If the company can identify even 60–70% of customers likely to churn, they can:
+
+Offer discounts
+
+Provide loyalty rewards
+
+Improve service support
+
+Increase long-term revenue
+
+This results in:
+✔ Reduced customer acquisition cost
+✔ Increased lifetime value
+✔ Improved profitability
