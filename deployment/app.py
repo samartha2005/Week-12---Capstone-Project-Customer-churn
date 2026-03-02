@@ -11,8 +11,8 @@ model = joblib.load(model_path)
 app = Flask(__name__)
 
 # Load model and feature columns
-model = joblib.load("D:/customer-churn-capstone/models/churn_model.pkl")
-feature_columns = joblib.load("D:/customer-churn-capstone/models/feature_columns.pkl")
+model = joblib.load("../models/churn_model.pkl")
+feature_columns = joblib.load("../models/feature_columns.pkl")
 
 @app.route("/")
 def home():
